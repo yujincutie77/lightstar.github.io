@@ -1,0 +1,800 @@
+
+@media print{
+
+
+
+/* INFO LAYOUT START */
+
+
+.infolayout{
+height: 160px;
+position: relative;
+margin-top: -2%;
+/* background-color: blueviolet !important; */
+}
+
+.jobtitle{
+    position:absolute;
+    top:2%;
+    left:42%;
+    font-size: 100%;
+}
+
+.jobClient{
+    position:absolute;
+    top:21%;
+    left:14px;
+    font-size: 100%;
+}
+
+#clienttxtbx{
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    height: 25px;
+    width:50% !important;
+}
+
+.jobDate{
+    position:absolute;
+    top:20%;
+    left:63%;
+    font-size: 100%;
+}
+
+
+#datetxtbx{
+    position: absolute;
+    top: 20%;
+    left: 71%;
+    height: 25px;
+    width:25% !important;
+}
+
+
+.jobAddress{
+    position:absolute;
+    top:39%;
+    left:14px;
+    font-size: 100%;
+}
+
+#addresstxtbx{
+    position: absolute;
+    top: 37%;
+    left: 13%;
+    height: 25px;
+    width:83% !important;
+}
+
+.jobContact{
+    position:absolute;
+    top:56%;
+    left:14px;
+    font-size: 100%;
+}
+
+#contacttxtbx{
+    position: absolute;
+    top: 54%;
+    left: 20%;
+    height: 25px;
+    width:76% !important;
+}
+
+.jobContactNum{
+    position:absolute;
+    top:72%;
+    left:14px;
+    font-size: 100%;
+}
+
+#contactnumtxtbx{
+    position: absolute;
+    top: 71%;
+    left: 20%;
+    height: 25px;
+    width:76% !important;
+}
+
+/* INFO LAYOUT END */
+ 
+/* CATEGORY LAYOUT START */
+.categorylayout{
+background-color: rgb(209, 209, 209) !important;
+height: 30px;
+}
+
+#chckstatic{
+    height: 15px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.stattxt{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    font-size: 100%;
+}
+
+#chckdyna{
+    height: 15px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+.dynatxt{
+    position: absolute;
+    top: 15%;
+    left: 28%;
+    font-size: 100%;
+}
+  
+
+#chcksnap{
+    height: 15px;
+    position: absolute;
+    top: 10%;
+    left: 55%;
+}
+
+.snaptxt{
+    position: absolute;
+    top: 15%;
+    left: 58%;
+    font-size: 100%;
+}
+
+#chcksraw{
+    height: 15px;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+}
+
+.rawtxt{
+    position: absolute;
+    top: 15%;
+    left: 78%;
+    font-size: 100%; 
+}
+/* CATEGORY LAYOUT END */
+
+/* STATIC LAYOUT START */
+
+.staticlayout{
+/*     background-color: rgb(41, 209, 125) !important; */
+    border: solid #1d3958 1px;
+    margin-top:  2%;
+    height: 150px;
+}
+
+
+.statlayout2{
+border: none !important;
+}
+
+ .dimentxt{
+   position: absolute;
+   top: 23%;
+   left: 0%;
+   font-size: 80%;
+}
+
+#dimentxtbx{
+    position: absolute;
+    top: 16%;
+    left: 11%;
+    height: 25px;
+    width:50% !important;
+    border: solid black 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;    
+} 
+ 
+.qtytxt{
+    position: absolute;
+   top: 23%;
+   left: 64%;
+   font-size: 80%;
+}
+
+#qtytxtbx{
+    position: absolute;
+    top: 16%;
+    left: 70%;
+    height: 25px;
+    width:25% !important;
+    border: solid black 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;   
+}
+
+
+#stattxtcat{
+    background-color:#1d3958 !important;
+    color: white !important;
+    width:110% !important;
+    margin-left: -5%;
+    margin-top: -2%;
+}
+
+
+/* FRAME START */
+.frmetxt{
+position: absolute;
+top: 38%;
+left: 0%;
+font-size: 80%;
+}
+
+#chckfrme{
+    position: absolute;
+    top: 36%;
+    left: 12%;
+    height: 10px;
+}
+
+.fiftymmtxt{
+    position: absolute;
+    top: 38%;
+    left: 15%;
+    font-size: 65%;
+}
+
+#chck80sffrme{
+    position: absolute;
+    top: 36%;
+    left: 22%;
+    height: 10px;
+}
+
+.eightymmtxt{
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    font-size: 65%;
+}
+
+#chck80dffrme{
+    position: absolute;
+    top: 36%;
+    left: 34%;
+    height: 10px;
+}
+
+.eightymmdftxt{
+    position: absolute;
+    top: 38%;
+    left: 37%;
+    font-size: 65%;
+}
+
+#chck120sffrme{
+    position: absolute;
+    top: 36%;
+    left: 46%;
+    height: 10px;
+}
+
+.onetwozerommsftxt{
+    position: absolute;
+    top: 38%;
+    left: 49%;
+    font-size: 65%;
+}
+
+#chck120dffrme{
+    position: absolute;
+    top: 36%;
+    left: 58%;
+    height: 10px;
+}
+
+.onetwozerommdftxt{
+    position: absolute;
+    top: 38%;
+    left: 61%;
+    font-size: 65%;
+}
+
+#chckothers{
+    position: absolute;
+    top: 36%;
+    left: 70%;
+    height: 10px;
+}
+
+.otherstxt{
+    position: absolute;
+    top: 38%;
+    left: 73%;
+    font-size: 65%;
+}
+
+#txtbxothers{
+    position: absolute;
+    top: 38%;
+    left: 79%;
+    height: 10px;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-bottom: solid black 0.5px;
+}
+/* FRAME END */
+
+
+/* LED START */
+.ledtxt{
+    position: absolute;
+    top: 49%;
+    left: 0%;
+    font-size: 80%;
+    }
+
+#chckstrip{
+    position: absolute;
+    top: 47%;
+    left: 12%;
+    height: 10px;
+}
+
+.striptxt{
+    position: absolute;
+    top: 49%;
+    left: 15%;
+    font-size: 65%;
+}
+
+#chckfish{
+    position: absolute;
+    top: 47%;
+    left: 22%;
+    height: 10px;
+}
+
+.fishtxt{
+    position: absolute;
+    top: 49%;
+    left: 25%;
+    font-size: 65%;
+}
+
+#chckopt{
+    position: absolute;
+    top: 47%;
+    left: 46%;
+    height: 10px;
+}
+
+.opttxt{
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    font-size: 65%;
+}
+
+#chcklgp{
+    position: absolute;
+    top: 47%;
+    left: 58%;
+    height: 10px;
+}
+
+.lgptxt{
+    position: absolute;
+    top: 49%;
+    left: 61%;
+    font-size: 65%;
+}
+
+/* LED END */
+
+.color{
+    display: none; 
+}
+
+/* COLOR START */
+.colortxt{
+    position: absolute;
+    top: 61%;
+    left: 0%;
+    font-size: 80%;
+    }
+
+#chck7k{
+    position: absolute;
+    top: 59%;
+    left: 12%;
+    height: 10px;
+  }  
+
+  .sevenktxt{
+    position: absolute;
+    top: 61%;
+    left: 15%;
+    font-size: 65%;
+  }
+
+#chck10k{
+    position: absolute;
+    top: 59%;
+    left: 22%;
+    height: 10px;
+}
+
+.tenktxt{
+    position: absolute;
+    top: 61%;
+    left: 25%;
+    font-size: 65%;
+}
+
+#chck12k{
+    position: absolute;
+    top: 59%;
+    left: 34%;
+    height: 10px;
+}
+
+.onetwotxt{
+    position: absolute;
+    top: 61%;
+    left: 37%;
+    font-size: 65%;
+}
+/* COLOR END */
+
+
+
+
+
+/* BOARD START */
+.bboardtxt{
+    position: absolute;
+    top: 73%;
+    left: 0%;
+    font-size: 80%;
+    }
+
+#chcksintra{
+    position: absolute;
+    top:72%;
+    left: 12%;
+    height: 10px;
+}   
+
+.sintratxt{
+    position: absolute;
+    top: 73.5%;
+    left: 15%;
+    font-size: 65%;
+}
+
+#chckacp{
+    position: absolute;
+    top: 72%;
+    left: 22%;
+    height: 10px;
+}
+
+.acptxt{
+    position: absolute;
+    top: 73.5%;
+    left: 25%;
+    font-size: 65%;
+}
+
+#chckothersboard{
+    position: absolute;
+    top: 72%;
+    left: 34%;
+    height: 10px;
+}
+
+.othersboardtxt{
+    position: absolute;
+    top: 73.5%;
+    left: 37%;
+    font-size: 65%;
+}
+
+#txtbxothersboard{
+    position: absolute;
+    top: 59%;
+    left: 43%;
+    font-size: 65%;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom: solid gray 1px;
+    width: 10% !important;
+
+}
+/* BOARD END */
+
+
+
+
+/* APP START */
+.apptxt{
+    position: absolute;
+    top: 86%;
+    left: 0%;
+    font-size: 80%;
+    }
+
+ #chckwall{
+    position: absolute;
+    top:85%;
+    left: 12%;
+    height: 10px;
+ }   
+
+.walltxt{
+    position: absolute;
+    top: 86.2%;
+    left: 15%;
+    font-size: 65%;
+}
+
+#chckstand{
+    position: absolute;
+    top: 85%;
+    left: 34%;
+    height: 10px;
+}
+
+.standtxt{
+    position: absolute;
+    top: 86.2%;
+    left: 37%;
+    font-size: 65%;
+}
+
+#chcksuspend{
+    position: absolute;
+    top: 85%;
+    left: 46%;
+    height: 10px;  
+}
+
+.suspendtxt{
+    position: absolute;
+    top: 86.2%;
+    left: 49%;
+    font-size: 65%;
+}
+
+#chckhanged{
+    position: absolute;
+    top: 85%;
+    left: 58%;
+    height: 10px;
+}
+
+.hangtxt{
+    position: absolute;
+    top: 86.2%;
+    left: 61%;
+    font-size: 65%; 
+}
+/* APP END */
+
+
+
+
+
+/* VOL START */
+.voltxt{
+    position: absolute;
+    top: 98%;
+    left: 0%;
+    font-size: 80%;
+    }
+
+#chck24v{
+    position: absolute;
+    top:97%;
+    left: 12%;
+    height: 10px;
+}
+
+.twofourvtxt{
+    position: absolute;
+    top: 98.3%;
+    left: 15%;
+    font-size: 65%;
+}
+
+#chck12v{
+    position: absolute;
+    top: 97%;
+    left: 22%;
+    height: 10px;
+}
+
+.twoonevtxt{
+    position: absolute;
+    top: 98.3%;
+    left: 25%;
+    font-size: 65%;
+}
+
+#chck5v{
+    position: absolute;
+    top: 97%;
+    left: 34%;
+    height: 10px;
+}
+
+.fivevtxt{
+    position: absolute;
+    top: 98.3%;
+    left: 37%;
+    font-size: 65%;
+}
+/* VOL END */
+
+/* STATIC LAYOUT END */
+
+
+
+
+
+
+/* Dynamic LAYOUT START */
+
+    .dynamiclayout{
+    /*     background-color: rgb(41, 209, 125) !important; */
+        border: solid #1d3958 1px;
+       
+        height: 130px;
+    }
+    
+    .dynamiclayout2{
+        border: none !important;
+    }
+
+    #dynatxtcat{
+    background-color:#1d3958 !important;
+    color: white !important;
+    width:110% !important;
+    margin-left: -5%;
+    margin-top: 0%;
+    }
+
+    .contentdynamic{
+        display: none;
+    }
+/* Dynamic LAYOUT END */
+
+
+
+
+/* MEDIA LAYOUT START */
+.medialayout{
+    border: solid #1d3958 1px;
+    
+        height: 130px;
+}
+
+.medialayout2{
+    border: none !important;
+}
+
+.contentmedia{
+    display: none;
+}
+
+#mediatxtcat{
+    background-color:#1d3958 !important;
+    color: white !important;
+    width:110% !important;
+    margin-left: -5%;
+    margin-top: 0%;
+}
+/* MEDIA LAYOUT END */
+
+/* BACKING LAYOUT START */
+.backinglayout{
+    border: solid #1d3958 1px;
+  
+    height: 130px;
+}
+
+.backinglayout2{
+    border: none !important;
+}
+    
+
+.contentback{
+    display: none;
+}
+
+/* BACKING LAYOUT END */
+
+
+/* RAW LAYOUT START */
+.rawmatlayout{
+    border: solid #1d3958 1px;
+
+    height: 130px;
+}
+
+.rawmatlayout2{
+    border: none !important;
+}
+/* RAW LAYOUT END */
+
+   
+    
+/* DETAILS LAYOUT START */
+  .detailslayout{
+   /*  background-color: rgb(70, 187, 148) !important; */
+    height: 70px;
+  }
+
+.comdate{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    font-size: 80%;
+}
+
+#datedetails{
+    position: absolute;
+    top: 35%;
+    left: 17%;
+    height: 20px;
+    width:16% !important;
+    border:none;
+}
+
+.appby{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    font-size: 80%;
+}
+
+#appbytxtbx{
+    position: absolute;
+    top: 66%;
+    left: 46%;
+    height: 20px;
+    width:16% !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+}
+
+.salesp{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    font-size: 80%;
+}
+
+#salesptxtbx{
+    position: absolute;
+    top: 36%;
+    left: 76%;
+    height: 20px;
+    width:16% !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+}
+/* DETAILS LAYOUT END */
+
+
+}
